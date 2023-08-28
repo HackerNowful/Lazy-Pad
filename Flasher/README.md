@@ -1,22 +1,67 @@
 
 <h1 align="center">Hi 👋, I'm Mohammed Nowful Khan</h1>
 <h3 align="center">Hardware hacker</h3>
-Pico-Ducky with an Button based Key Stroke Injecting 
+<h1 align="center"> Lazy-Pad<h1></h1>
+<br>
+It's an act like a Macro pad But in this project we added a Joystick to Mouse Control And some random keys
 
-<h3 align="center">Installation & Setup</h3>
-Download A file From this Link https://github.com/HackerNowful/Pico-Ducky
-<br>
-<p align="left"> Then Plug Your Pico to your pc or laptop then open the downloaded file 
-Goto the <b>Flasher</b> Folder Copy that <b>adafruit-circuitpython-raspberry_pi_pico-en_US-8.2.0.uf2</b> file into your Pico
-Its automatically change the name to Circuit Python,
-Then Copy that <b>Ducky-Code</b> Folders Inside file then paste that all files into Pico then look that circuit connection to make an Button connection as per the circuit
-That it Your Ready to Goooo. Your Button Rubber Ducky is Ready</p>
-<br>
-<p align="left"><b><strong>To Launch the Rubber Ducky just Hold the Button Which Script you want to Perform .. Hold a Button And Connect the Pico Ducky To Your Devices To Emulate an Keystroke </strong></b></p>
 <br>
 <h3 align="center">Circuit Connection</h3>
 <br>
-<img src="Flasher/images/pico-Button-circuit.png" alt="hackernowful" />
+
+  <b> pico     ->     JoyStick </b>
+ <pre>  
+   GND           -> GND
+   3V3           -> +5V
+   VRX           -> A0 [ Gpio 26 ]
+   VRY           -> A1 [ Gpio 27 ]
+</pre>
+<br>
+<br>
+
+  <b> pico     ->     Push BUtton</b>
+ <pre>  
+   3V3           -> To All Push Buttons one leg
+   GP0           -> BUTTON 1
+   GP1           -> BUTTON 2
+   GP2           -> BUTTON 3
+   GP3           -> BUTTON 4
+   GP4           -> BUTTON 5
+   GP5           -> BUTTON 6
+   GP20          -> BUTTON 7
+   GP21          -> BUTTON 8
+   GP22          -> BUTTON 9
+
+   GP14          -> MOUSE RIGHT CLICK
+   GP15          -> MOUSE LEFT CLICK
+</pre>
+<br>
+<br>
+<h3 align="center">Circuit Connection</h3>
+<br>
+<img src="/Flasher/images/Circuit.png" alt="hackernowful" />
+<br>
+<h3 align="center"> Installation & Setup</h3>
+<pre>
+
+
+#Download A file From this Link https://github.com/HackerNowful/Lazy-Pad.
+
+#Then Plug Your Pico to your pc or laptop.
+
+#Open the downloaded file Goto the Flasher Folder Copy that adafruit-circuitpython-raspberry_pi_pico-en_US-8.2.0.uf2 file into your Pico.
+
+#Its automatically change the name to Circuit Python.
+
+#Then Copy that Lazy-pad Folders Inside file's then paste that all files into Pico.
+
+#look that circuit connection to make an Button connection as per the circuit .
+
+#That it Your Ready to Goooo.....
+
+
+# Happy Hacking
+</pre>
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hackernowful&label=Profile%20views&color=0e75b6&style=flat" alt="hackernowful" /> </p>
