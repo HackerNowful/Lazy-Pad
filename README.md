@@ -39,7 +39,7 @@ It's an act like a Macro pad But in this project we added a Joystick to Mouse Co
 <br>
 <h3 align="center">Circuit Connection</h3>
 <br>
-<img src="/Flasher/images/Circuit.png" alt="hackernowful" />
+<img src="/Flasher/images/Circuitt.png" alt="hackernowful" />
 <br>
 <h3 align="center"> Installation & Setup</h3>
 <pre>
